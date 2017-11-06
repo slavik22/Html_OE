@@ -1,0 +1,35 @@
+h1,
+h2 {
+    color: darkred;
+}
+
+footer {
+    color: darkblue;
+}
+
+strong {
+    color: darkgreen;
+}
+
+main p {
+    color: saddlebrown;
+}
+
+nav a {
+    float: left;
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: #f1f1f1;
+    margin: none;
+}
+
+nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
