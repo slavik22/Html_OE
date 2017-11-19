@@ -1,0 +1,12 @@
+[class$="span"]{
+    color: #b41c1c;
+}
+[id$="first"] th{
+    background-color: #24afd9;
+}
+[id="pink"] p{
+    background-color:  #e29ee2;
+}
+[id="blue"] p{
+    background-color:  #8eb2cc;
+}

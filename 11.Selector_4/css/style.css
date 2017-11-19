@@ -1,0 +1,15 @@
+[class^="green"]{
+    color: #24d087;
+}
+[class^="red"]{
+    color: #f20000;
+}
+[class$="brown"]{
+    color: rgb(142, 57, 37);
+}
+#yellow,#yellow + p{
+    color: #ebff00;
+}
+[id$="first"]{
+    color: black;
+}

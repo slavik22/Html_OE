@@ -1,0 +1,6 @@
+[class^="Title"], [class$="span"]{
+    color: #be253c;
+}
+[class$="lessons"] p{
+    color: #ed2b2b
+}
