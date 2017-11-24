@@ -1,0 +1,8 @@
+tr:first-child{
+    background: #3cb48f;
+    color: white;
+    
+}
+tr:nth-child(even){
+    background: #ffd6dd;
+}

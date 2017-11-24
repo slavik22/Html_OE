@@ -1,0 +1,11 @@
+p{
+    line-height: 0.2;
+    width:600;
+    font-family: cursive;
+}
+p:nth-child(even){
+    color: #b21a1a;
+}
+p:nth-child(odd){
+    color: #795555;
+}

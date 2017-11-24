@@ -1,0 +1,13 @@
+table{
+    background-color: #70c7a3;
+}
+tr:nth-child(n+1) td:not(#unique){
+    background-color: white;
+    border: 1px solid grey;
+}
+#unique{
+    background-color: white;
+}
+td a{
+    color: blue;
+}

@@ -1,0 +1,12 @@
+td:first-child::first-letter,td:nth-child(5)::first-letter{
+    background: #eb7979;
+}
+td:nth-child(2)::first-letter,td:nth-child(6)::first-letter{
+    background: #8ca1e5;
+}
+td:nth-child(3)::first-letter,td:nth-child(7)::first-letter{
+    background: #ebde79;
+}
+td:nth-child(4)::first-letter,td:nth-child(8)::first-letter{
+    background: #98eb79;
+}
