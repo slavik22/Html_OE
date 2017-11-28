@@ -1,0 +1,22 @@
+            body{
+                height: 100%;
+                margin: 0;
+                border: 6px solid black;
+                background: #0dbae3
+            }
+            header,main,footer{
+                margin:0 15%;
+                border: 6px solid black;
+            }
+            header{
+                background: red;
+                height: 28%;
+            }
+            main{
+                background: purple;
+                height: 48%;
+            }
+            footer{
+                background: green;
+                height: 18%;
+            }

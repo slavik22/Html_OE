@@ -1,0 +1,23 @@
+body{
+                height: 100%;
+                margin: 0;
+            }
+            header{
+                background: red;
+                height: 30%;
+            }
+            main{
+                background: purple;
+                height: 50%;
+            }
+            footer{
+                background: green;
+                height: 20%;
+            }
+            section{
+                height: 99%;
+                width: 50%;
+                margin: 0 auto;
+                text-align: center;
+                border: 5px solid black;
+            }
