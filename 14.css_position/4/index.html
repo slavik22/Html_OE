@@ -1,76 +1,136 @@
 <html>
     <head>
-    <title></title>
-    <style>
-        body {
-            margin: 0;
-            background: #34cfeb;
-        }
-        
-        .header {
-            height: 50px;
-            background: #5289b2;
-            border-radius: 2px;
-            min-width: 817px;
-            margin-bottom: -21;
-        }
-        
-        .name {
-            width: 60%;
-            height: 40px;
-            text-align: center;
-            color: white;
-            display: inline-block;
-            margin: 0;
-        }
-        
-        .nav {
-            display: inline;
-        }
-        
-        a {
-            text-decoration: none;
-            padding: 16px;
-            color: #395469
-        }
-        
-        main {
-            margin: 0;
-            height: 100%;
-        }
-        
-        .main {
-            width: 50%;
-            margin: 0 auto;
-        }
-        
-        .main h1 {
-            color: aliceblue;
-            text-align: center;
-        }
-    </style>
-</head>
-
-<body>
-    <header>
-        <div class="header">
-            <div class="name">
-                <p>Webkiz Creative</p>
-            </div>
-            <nav class="nav">
-                <a href="#">Home</a>
-                <a href="#">News</a>
-                <a href="#">Contacts</a>
-                <a href="#">About</a>
+        <title></title>
+        <style>
+            header{
+                height: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #name{
+                font-size: 23px;
+                font-family: sans-serif;
+                margin-right: 20%;
+                font-weight: bold;
+            }
+            header ul li{
+                display: inline-block;
+                padding: 16px;
+            }
+            header ul li a{
+                text-decoration: none;
+                color: black;
+            }
+            #first{
+                height: 70%;
+                width: 100%;
+                 background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg");
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #container>h1:first-child{
+                font-size: 350%;
+                color: aliceblue;
+                font-weight:bold;
+                margin-bottom: 0;
+                text-shadow: 1px 1px 1px #000000;
+            }
+            #container>p:nth-child(2){
+                color: aliceblue;
+                margin-top: 2%;
+                font-size: 18pt;
+                text-shadow: 1px 1px 1px #000000;
+            }
+            #second{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            #second div{
+                margin-left: 2%
+            }
+            #additional{
+                background-color: #E8DFE0;
+                margin-left: 45%; 
+                margin-top: 4%;
+                border: 0;
+                padding: 8 16;
+                border-radius: 3px;
+                color: aliceblue;
+            }
+            #additional:hover{
+                color: black;
+                cursor: pointer;
+            }
+            #social img{
+                width: 30px;
+                
+            }
+            #social li{
+                display: inline-block; 
+            }
+        </style>
+    </head>
+    <body style="margin: 0;">
+        <header>
+            <p id="name">Skillfair</p>
+            <nav id="nav" >
+                <ul>
+                    <li><a href="#">newest</a></li>
+                    <li><a href="#">catalogue</a></li>
+                    <li><a href="#">conteact</a></li>
+                </ul>
             </nav>
-        </div>
-    </header>
-    <main>
-        <div class="main">
-            <h1>Welcome</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus assumenda recusandae officiis adipisci deserunt dolores reiciendis nemo dignissimos</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus assumenda recusandae officiis adipisci deserunt dolores reiciendis nemo dignissimos</p>
-        </div>
-    </main>
-</body>
+        </header>
+        <main>
+            <section id="first">
+                <div id="container" style="text-align: center;">
+                    <h1>Homemade Goods</h1>
+                    <p>This Year's Best</p>
+                    <button>See all</button>
+                </div>
+            </section>
+            <section id="second">
+                <div>
+                    <p>kitchen</p>
+                    <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/kitchen.jpg">
+                </div>
+                <div>
+                    <p>woodwork</p>
+                    <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/woodwork.jpg">
+                </div>
+                <div>
+                    <p>gifts</p>
+                    <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/gifts.jpg">
+                </div>
+                <div>
+                    <p>antiques</p>
+                    <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/antique.jpg">
+                </div>
+            </section>
+            <button id="additional">View complete catologue</button>
+        </main>
+        <footer style="height: 92px; display: flex; align-items: center;">
+            <p style="display: inline-block; margin-left: 2%;">&copy; 2016 Skillfair</p>
+            <div id="social" style="margin-left: 55%">
+                <ul style="list-style-type: none;">
+                    <li>
+                        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg">
+                    </li>
+                    <li>
+                        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
+                    </li>
+                    <li>
+                        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg">
+                    </li>
+                    <li>
+                        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg">
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>
